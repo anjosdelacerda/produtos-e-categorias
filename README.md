@@ -47,6 +47,14 @@ parâmetro. Para isso você terá que ter o PostgreSQL instalado em sua máquina
 **Atenção:** A aplicação roda a partir do **Docker**, você precisará ter o Docker baixado em sua máquina para poder acessar o localhost da aplicação,
 em caso de dúvidas você poderá consultar a documentação <a href="https://docs.docker.com/desktop/install/linux-install/">aqui</a>.
 
+Após a instalação do Docker você precisa subir as images da aplicação, digite em seu terminal:
+
+````
+docker-compose up --build
+````
+
+E pronto, a sua aplicação deverá estar rodando agora!
+
 Dentro da pasta você encontrará um arquivo chamado **workspace.json** aonde está a data com as rotas para serem testadas e os formatos de requests que a 
 API espera.
 
