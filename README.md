@@ -44,3 +44,9 @@ npm install --global yarn
 **Atenção:** É necessário criar uma arquivo chamado .env dentro da pasta do projeto e colocar as suas credenciais nela, use o arquivo .env.example como
 parâmetro. Para isso você terá que ter o PostgreSQL instalado em sua máquina, caso tenha dúvidas você poderá consultar a documentação <a href="https://www.postgresql.org/docs/current/tutorial-start.html">aqui</a>.
 
+**Atenção:** A aplicação roda a partir do **Docker**, você precisará ter o Docker baixado em sua máquina para poder acessar o localhost da aplicação,
+em caso de dúvidas você poderá consultar a documentação <a href="https://docs.docker.com/desktop/install/linux-install/">aqui</a>.
+
+Dentro da pasta você encontrará um arquivo chamado **workspace.json** aonde está a data com as rotas para serem testadas e os formatos de requests que a 
+API espera.
+
