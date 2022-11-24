@@ -5,14 +5,9 @@
 Esta aplicação consiste em criar categorias e produtos, relacionando as duas models em um relacionamento 1:n (um para muitos), aonde essas informações serão
 persistidas dentro de um banco (PostgreSQL).
 
-#Tecnologias utilizadas
+**Tecnologias utilizadas:**
 
-Node.js
-Express.js
-Yarn
-PostgreSQL
-DOTENV
-Docker
+Node.js | Express.js | Yarn | YUP | PostgreSQL | DOTENV | Docker
 
 
 
